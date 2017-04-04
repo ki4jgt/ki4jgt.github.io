@@ -23,7 +23,9 @@
 				padding-right: 10px;
 				border-right: 3px solid white;}
 			.skew {transform: skewX(-15deg);}
-			h1 {text-align: center;}
+			h1 {text-align: center;
+				user-select: none;
+				cursor: default;}
 			a {color: white;}
 			.content {margin-left: 20%;
 				border-left: 3px solid #666666;
@@ -40,7 +42,7 @@
 	</head>
 	<body>
 		<h1 style = "font-family: 'Lobster', cursive; width: 100%; background-color: black; line-height: 100px; margin: 0px;">Pretty in Pink</h1>
-		<div class = "header"><div class = "hblock skew">Home</div><div class = "hblock skew">About Us</div><div class = "hblock skew">Products</div><div class = "hblock skew" style = "border: none;">Contact</div></div>
+		<div class = "header"><div class = "hblock skew"><a href = "#home">Home</a></div><div class = "hblock skew"><a href = "#about">About Us</a></div><div class = "hblock skew"><a href = "#products">Products</a></div><div class = "hblock skew" style = "border: none;"><a href = "#contact">Contact</a></div></div>
 		<div class = "content">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mattis neque. Donec interdum enim est, in lacinia turpis porta nec. Cras et ante quis lectus posuere eleifend quis quis leo. Vivamus arcu felis, imperdiet eget urna ac, sollicitudin condimentum arcu. Donec volutpat faucibus ipsum, eu mattis purus imperdiet eget. Praesent id consectetur libero. Aliquam ac suscipit augue. Etiam ullamcorper urna commodo nunc ultricies, sit amet vulputate nisl consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur a gravida ipsum, ac accumsan ipsum.</p>
 			<img style = "float: right;" src = "reaching.jpg" />
