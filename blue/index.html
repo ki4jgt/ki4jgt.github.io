@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			html, body {margin: 0px;
+				padding: 0px;}
+			.header {background: linear-gradient(to bottom right, orange, gold);
+				border-radius: 2px;
+				border-bottom: 2px solid orange;
+				line-height: 75px;
+				overflow: hidden;}
+			body {background-color: #58C1F8;
+				background: url("sky.jpg");
+				background-size: 100%;, 100%}
+			.search {background-color: white;
+				color: black;
+				border-radius: 50px;
+				border: 2px solid gold;
+				border-top: 2px solid yellow;
+				border-right: 2px solid yellow;
+				outline: none;
+				text-align: center;
+				padding: 7px;
+				width: 75%;}
+			h1 {color: white;
+				text-align: center;
+				text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+				font-size: 150px;
+				user-select: none;
+				-moz-user-select: none;}
+			button {background-color: gold;
+				height: 35px;
+				outline: none;}
+			.a {text-decoration: none;
+				border-left: 2px solid #AB5500;
+				border-right: 2px solid yellow;
+				padding-left: 15px;
+				padding-right: 15px;
+				margin: 0px;
+				color: #0B9AE6;
+				font-size: 40px;}
+			.body {border: 3px solid #EE7600;
+				border-right: 3px solid yellow;
+				border-bottom: 3px solid yellow;
+				margin: 2px;
+				padding: 5px;}
+			.runner {overflow: auto;
+				height: 200px;
+				width: 50%;
+				float: left;
+				background-color: rgba(255, 255, 0, 1);
+				border: 2px solid orange;
+				padding:10px;}
+		</style>
+	</head>
+	<body>
+		<div class = "header">
+			<div style = "float: left; width: 75%; text-align: left;">
+				<a class = "a" href = "#home">Home</a><a class = "a" href = "#radar">Radar</a><a class = "a" href = "#blog">Blog</a><a class = "a" href = "#contact">Contact</a>
+			</div>
+			<div style = "background-color: orange; float: right; width: 20%; text-align: right; border-left: 2px solid yellow; border-radius: 40px 0px 0px 40px; padding-right: 15px;"><select id = "cities" class = "search">
+				<option selected disabled>City</option>
+				<option value = "42202" url = "https://www.accuweather.com/en/us/adairville-ky/42202/weather-forecast/2149747">Adairville</option>
+				<option value = "42206" url = "https://www.accuweather.com/en/us/auburn-ky/42206/weather-forecast/18159_pc">Auburn</option>
+				<option value = "42256" url = "https://www.accuweather.com/en/us/lewisburg-ky/42256/weather-forecast/2164485">Lewisburg</option>
+				<option value = "42276" url = "https://www.accuweather.com/en/us/russellville-ky/42276/weather-forecast/333313">Russellville</option>
+			</select>
+			<button>Go!</button></div>
+		</div>
+		<h1>Logan County Weather Blog</h1>
+		<div class = "body header" style = "line-height: normal; padding: 1%;">
+			<h2 style = "color: #AB5500; padding-left: 20%;">About Us:</h2>
+			<div class = "runner">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis arcu quis mauris ullamcorper, nec semper dui laoreet. Sed tempus, turpis sit amet euismod sollicitudin, turpis nibh sagittis leo, a malesuada elit diam nec est. Nulla pharetra dolor quis lacus molestie, et suscipit ante scelerisque. Aenean nunc enim, consectetur mollis arcu sed, malesuada tempor sem. Integer vulputate mollis nisl eget mollis. Quisque vitae iaculis velit, blandit condimentum leo. Praesent vulputate nulla at quam pulvinar, eleifend tincidunt eros euismod. Praesent a volutpat nulla. Sed massa turpis, congue id augue id, semper sodales ligula. Pellentesque eleifend tristique varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras elit lectus, bibendum a diam non, dignissim scelerisque neque.</p>
+				<p>Praesent non nisl tellus. Duis finibus metus non posuere vulputate. Etiam a orci eu libero porttitor tincidunt vel sed sapien. Fusce laoreet eros et elementum facilisis. Nullam mattis augue id nisi vehicula iaculis. Nam semper pulvinar sollicitudin. Curabitur ut enim vulputate nisi posuere sagittis ut eget nisl. Aliquam feugiat condimentum enim, et fringilla dui condimentum et. Nullam consequat rutrum felis a lobortis.</p>
+				<p>Nulla tristique neque a eleifend pretium. Aliquam porttitor magna a magna commodo tempus. Fusce convallis nisl velit, ac accumsan sem dapibus quis. Morbi ac nisl efficitur odio accumsan tristique a ac ligula. Proin scelerisque felis lacus, in elementum arcu gravida ornare. Suspendisse sit amet magna lacus. Ut tincidunt vestibulum quam vel scelerisque.</p>
+				<p>Nulla finibus porta turpis ac egestas. Sed felis lacus, tincidunt non pulvinar ultrices, finibus ac mi. Cras vel leo sit amet massa egestas rutrum. Phasellus varius tellus neque, sit amet iaculis velit ornare in. Nullam arcu magna, lacinia quis dui vulputate, varius tempor lorem. Nunc vehicula felis et urna convallis tristique. Curabitur imperdiet quam massa. Vivamus pellentesque urna eu semper interdum. Nulla facilisi. Sed porttitor metus vel lectus aliquam pretium. Nullam et tincidunt risus. Mauris imperdiet, mi non feugiat sollicitudin, felis dui malesuada nunc, ullamcorper eleifend quam ligula nec lectus. Donec efficitur lacus in ipsum auctor, ornare ultrices quam facilisis.</p>
+				<p>Nulla convallis magna libero. Curabitur aliquet, nulla nec viverra vehicula, nisl mauris ultricies augue, id pulvinar augue nisi ac tortor. Proin laoreet non tellus at porta. Vivamus facilisis, lectus quis ultrices feugiat, lectus quam viverra massa, eu ullamcorper felis nulla eu nisl. Mauris molestie leo ante, sit amet posuere ligula ornare et. Nunc id suscipit nisi. Maecenas imperdiet neque urna, vel egestas est finibus at.</p>
+			</div>
+			<img src = "map.png" style = "width: 45%; padding-left: 1%; padding-top: 5px;">
+		</div>
+	</body>
+	<footer>
+	</footer>
+</html>
