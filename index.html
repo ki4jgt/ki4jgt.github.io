@@ -50,13 +50,17 @@
 			h2 {text-align: center;}
 			a {color: blue;}
 			p {margin-bottom: 10px;
-				text-indent: 50px;}
+				text-indent: 50px;
+				font-spacing: 115%;}
 			.quote {text-indent: 0px;
 					margin: auto;
 					font-style: italic;
 					color: #gray;
 					min-width: 300px;
 					max-width: 500px;}
+			.title {position: sticky;
+					top: -20px;
+					background: #F0F0F0;}
 			@media screen {.content {overflow: auto;
 				overflow-x: hidden;
 				position: fixed;
@@ -92,7 +96,6 @@
 	<body>
 		<div class = "content">
 			<a name = "contact"></a>
-			<h1 style = "font-family: Lobster;">Jesse Cox</h1>
 			<h2>Developer/IT Consultant</h2>
 			<table>
 				<tr>
@@ -113,11 +116,12 @@
 				</tr>
 			</table>
 			<a name = "cover"></a>
-			<h1>Quick Glance</h1>
+			<h1 class = "title">Quick Glance</h1>
 			<p class = "quote">"Life isn't hard; it's just complicated."</p>
 			<p class = "quote" style = "text-align: right; font-weight: bold;">~ Les Brown</p>
 			<ul>
 				<li><b>Web Technologies:</b> HTML5, Bootstrap, CSS3, jQuery, JavaScript, Python, Apache, Caddy, Linux, and Networking.</li>
+				<li><b>Trained:</b> 400+ hours on FreeCodeCamp and TheNewBoston.</li>
 				<li><b>Tech Focused:</b> Linux system and server user/admin -- Game servers, Icecast, Apache, Caddy, and Gnutella; Ham radio license -- knowledge of RF practice and theory; Experience programming 56k modems and flashing devices with custom ROMs (Zipit Wireless, Netgear Routers, Cellphones).</li>
 				<li><b>Native English Speaker:</b> Received a distinguised rating on state-mandated testing in high school, received a 100% on Freelancer.com's English Spelling and Grammar test.</li>
 				<li><b>Quick Study:</b> Speak German; Have knowledge of human anatomy; Learned stenography in 2 years.</li>
@@ -134,7 +138,7 @@
 			<p>After my grandmother became bedridden, no one was available to look after her either. I have spent the last 15 years looking after the two of them. In that decade-and-a-half, I have forgotten more than I can ever hope to remember:
 			I've studied numerous languages, taken a college course in hypnotherapy, earned an amateur radio license, and that's just the tip of the iceberg.</p>
 			<a name = "experience"></a>
-			<h1>Experience</h1>
+			<h1 class = "title">Experience</h1>
 			<h2>FreeCodeCamp</h2>
 			<p>FreeCodeCamp is an online community of web developers who train and assist one another in the pursuit of their practice. You can find my profile here: <a href = "https://www.freecodecamp.org/ki4jgt">https://www.freecodecamp.org/ki4jgt</a></p>
 			<p style = "text-indent: 0px;">Here are some of the projects I've completed:</p>
@@ -148,7 +152,6 @@
 			</ul>
 			<h2>Hobby Projects (Before FreeCodeCamp)</h2>
 			<h6>(Click the blue links to see the actual sites. Click the images to see what they look like.)</h6>
-			<div class = "iright"><a href = "cityline.png"><img class = "img" src = "cityline.png"></a></div>
 			<p><b>This Page:</b> This entire page was designed by me. It is completely mobile and print responsive.</p>
 			<p><b><a href = "https://github.com/ki4jgt/PPDF">PPDF Database Server:</a></b> NoSQL server written in Python with 4 simple commands.</p>
 			<p><b><a href = "https://ki4jgt.github.io/SIMP2.0/">Node-Webkit Media Player:</a></b> Media Player using YouTube Player API (Click the + button to add videos to the playlist) -- uses JS, jQuery, CSS, and HTML5.</p>
@@ -156,7 +159,6 @@
 			<p><b><a href = "pink">Pretty in Pink:</a></b> Demonstrates use of CSS and HTML.</p>
 			<p><b><a href = "baw">Cityline:</a></b> Stylish Consumer Reader -- HTML and CSS.</p>
 			<p><b>Mercy Web Browser:</b> Web browser written in Python3 and Gtk.</p>
-			<div class = "iright"><iframe src="https://www.youtube.com/embed/6RkGofPuZag" frameborder="0" allowfullscreen></iframe></div>
 			<p><b><a href = "https://www.youtube.com/watch?v=i5xjszpul-Q">Screensaver:</a></b> Python3-OpenGL powered screensaver for my desktop.</p>
 			<p><b>SIMP Media Player:</b> Python3-OpenGL media player (replaced with SIMP2.0 from Earlier)</p>
 			<p><b>Icecast:</b> I've setup and run my own Icecast server to hear music throughout my home.</p>
@@ -167,7 +169,7 @@
 			<br />
 			<br />
 			<a name = "employment"></a>
-			<h1>Employment History</h1>
+			<h1 class = "title">Employment History</h1>
 			<p class = "quote">"Jesse was a pleasure to work with. He definitely goes the extra mile on the work and makes sure it’s rich in quality. Goes to show he genuinely loves what he does. It was very easy to communicate with him and he has a good sense of being able to understand your questions and providing relevant solutions. I would definitely recommend Jesse to anyone looking for services here. Definitely one of the best! I for sure will be looking to hire him in the future!"</p><br />
 			<p class = "quote" style = "text-align: right; font-weight: bold;">~ Shaoib Hasan - Source Code Modifications and Uploading</p>
 			<br />
@@ -181,7 +183,7 @@
 			<p><b>Amara.org (Volunteer):</b> Transcribed audio/video for deaf and hard-of-hearing community.</p>
 			<p><b>Farm Work:</b> Grew up on 700 acres with cattle and tobacco.</p>
 			<a name = "certifications"></a>
-			<h1>Certifications</h1>
+			<h1 class = "title">Certifications</h1>
 			<table>
 				<tr>
 					<td colspan = 2><div id='scribie-profile-widget' data-host='https://widgets.scribie.com' data-code='25ea570aadd7f9832b79b27e87d9561c5ae53325' data-size='medium'> </div><script type='text/javascript' src='https://widgets.scribie.com/render/profile'></script></td>
