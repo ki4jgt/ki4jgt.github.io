@@ -30,6 +30,7 @@
 			body, html {font-family: 'Titillium Web', sans-serif;
 				margin: 0px;
 				padding: 0px;
+				-moz-user-select: none;
 				user-select: none;}
 			table {margin: 0 auto;}
 			.a-menu {font-family: 'Ranga', cursive;
@@ -60,6 +61,7 @@
 					max-width: 500px;}
 			.title {top: -20px;
 					background: #E1E1E1;
+					border-top: 1px solid white;
 					border-bottom: .5px dotted black;}
 			@media screen {.content {overflow: auto;
 				overflow-x: hidden;
@@ -83,7 +85,6 @@
 				iframe {width: 560px;
 					height:315px;}}
 			@media print {.band {display: none;}
-				iframe {display: none;}
 				.content {padding: 50px;}}
 		</style>
 		<meta charset="UTF-8">
@@ -96,6 +97,7 @@
 	<body>
 		<div class = "content">
 			<a name = "contact"></a>
+			<img src = "profile.jfif" class = "img" style = "width: 10%; height: auto; display: block; margin-left: auto; margin-right: auto; min-width: 150px;">
 			<h2>Developer/IT Consultant</h2>
 			<table>
 				<tr>
@@ -145,7 +147,6 @@
 			<ul>
 				<li><a href = "https://codepen.io/ki4jgt/full/yPJBNY/">The Intel Project</a> Uses Bootstrap to dynamically resize page elements. Top banner is actually a resizing Youtube video with text overlay.</li>
 				<li><a href = "https://codepen.io/ki4jgt/full/NwzLEr/">Random Quote Machine</a> created with CSS, HTML, Javascript, and jQuery API calls.</li>
-				<li><a href = "https://codepen.io/ki4jgt/full/NwqyZM/">Tribute Page to Donald Trump</a> created with bootstrap.</li>
 				<li><a href = "https://codepen.io/ki4jgt/full/aVjzLE/">Weather API</a> using jQuery and browser location services to fetch the user's local weather.</li>
 				<li><a href = "https://codepen.io/ki4jgt/full/YEBzqd/">TwitchTV Userlist</a> displays a list of followed users from Twitch and their current broadcasting status.</li>
 				<li><a href = "https://codepen.io/ki4jgt/full/vWagMR/">Wikipedia Search Page</a> powered by jQuery.</li>
@@ -157,9 +158,9 @@
 			<p><b><a href = "https://github.com/ki4jgt/Transkripshun">Transkripshun: Audio Transcription Software:</a></b> Transcription software comparable to ExpressScribe -- Created with Python3, OpenGL, and XLib.</p>
 			<p><b><a href = "pink">Pretty in Pink:</a></b> Demonstrates use of CSS and HTML.</p>
 			<p><b><a href = "baw">Cityline:</a></b> Stylish Consumer Reader -- HTML and CSS.</p>
-			<p><b>Mercy Web Browser:</b> Web browser written in Python3 and Gtk.</p>
+			<p><b><a href = "https://www.youtube.com/watch?v=6RkGofPuZag&t=13s">Mercy Web Browser:</a></b> Web browser written in Python3 and Gtk.</p>
 			<p><b><a href = "https://www.youtube.com/watch?v=i5xjszpul-Q">Screensaver:</a></b> Python3-OpenGL powered screensaver for my desktop.</p>
-			<p><b>SIMP Media Player:</b> Python3-OpenGL media player (replaced with SIMP2.0 from Earlier)</p>
+			<p><b><a href = "https://github.com/ki4jgt/SIMP">SIMP Media Player:</a></b> Python3-OpenGL media player (replaced with SIMP2.0 from Earlier)</p>
 			<p><b>Icecast:</b> I've setup and run my own Icecast server to hear music throughout my home.</p>
 			<p><b><a href = "https://github.com/ki4jgt/Steno-Writer">Steno-Writer:</a></b> Transcription software for stenographers, written in Python and OpenGL.</p>
 			<p><b>Caddy:</b> Having set my own blog up, I needed to play with Caddy for a bit. It's an awesome little server.</p>
@@ -181,20 +182,19 @@
 			<p><b>Logan County Archives (Volunteer):</b> Copied historical documents/records and ran errands.</p>
 			<p><b>Amara.org (Volunteer):</b> Transcribed audio/video for deaf and hard-of-hearing community.</p>
 			<p><b>Farm Work:</b> Grew up on 700 acres with cattle and tobacco.</p>
+			<a name = "education"></a>
+			<h1 class = "title">Education</h1>
+			<p><b>Russellville High School</b> - Russellville, KY - Graduated: 2008</p>
+			<p><b><a href = "https://hypnosis.edu/">Hypnosis Motivation Institute</a></b> - Online - Introductory Hypnotherapy Course: 2010</p>
 			<a name = "certifications"></a>
 			<h1 class = "title">Certifications</h1>
-			<table>
-				<tr>
-					<td colspan = 2><div id='scribie-profile-widget' data-host='https://widgets.scribie.com' data-code='25ea570aadd7f9832b79b27e87d9561c5ae53325' data-size='medium'> </div><script type='text/javascript' src='https://widgets.scribie.com/render/profile'></script></td>
-				</tr>
-			</table>
 			<p><b><a href = "https://www.freelancer.com/u/ki4jgt.html">Freelancer.com:</a></b> Perfect score in (US) English grammarL and punctuation.</p>
 			<p><b>Testing:</b> I received the highest award possible on all my school’s state-mandated testing (Math, Science, Reading Comprehension, and History) my junior year of highschool. My school paid me $100 for that.</p>
 			<p><b>Amateur Radio License:</b> Issued by FCC in 2005 (Obtained during highschool)<p>
 			<p><b>ICS-100:</b> Issued by FEMA in 2007 (Obtained during highschool)</p>
 			<div style = "float: right; font-size: 8px;">Copyright © 2017 Jesse Cox, All Rights Reserved.</div>
 		</div>
-		<div class = "head band"><button class = "menu-button" style = "left: 1px; border-right: 1px solid black;" onClick = "changeMenu()">Menu</button>Jesse Cox<button class = "menu-button" style = "right:1px; border-left: 1px solid black;" onClick = "window.print()"><img src = "print.png" style = "height: 25px; margin-top: 5px;"/></button><div class = "menu-button" id = "links" onClick = "changeMenu()" style = "padding: 3px;"><a href = "#contact" target = "_self" class = "a-menu menu-border">Contact</a><a href = "#cover" target = "_self" class = "a-menu menu-border">Quick Glance</a><a href = "#employment" target = "_self" class = "a-menu menu-border">Employment History</a><a href = "#experience" target = "_self" class = "a-menu menu-border">Experience</a><a href = "#certifications" target = "_self" class = "a-menu">Certifications</a></div></div>
+		<div class = "head band"><button class = "menu-button" style = "left: 1px; border-right: 1px solid black;" onClick = "changeMenu()">Menu</button>Jesse Cox<button class = "menu-button" style = "right:1px; border-left: 1px solid black;" onClick = "window.print()"><img src = "print.png" style = "height: 25px; margin-top: 5px;"/></button><div class = "menu-button" id = "links" onClick = "changeMenu()" style = "padding: 3px;"><a href = "#contact" target = "_self" class = "a-menu menu-border">Contact</a><a href = "#cover" target = "_self" class = "a-menu menu-border">Quick Glance</a><a href = "#experience" target = "_self" class = "a-menu menu-border">Experience</a><a href = "#employment" target = "_self" class = "a-menu menu-border">Employment History</a><a href = "#education" target = "_self" class = "a-menu menu-border">Education</a><a href = "#certifications" target = "_self" class = "a-menu">Certifications</a></div></div>
 		<div class = "foot band">Copyright © 2017 Jesse Cox, All Rights Reserved.</div>
 	</body>
 	<footer>
