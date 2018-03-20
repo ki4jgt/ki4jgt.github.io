@@ -9,6 +9,7 @@
 				font-size: 30px;
 				color: white;
 				background: linear-gradient(to bottom right, #7E005B, #C80191);}
+			.name {display: none;}
 			.foot{bottom: 0px;
 				background: linear-gradient(to bottom right, #C80191, #7E005B);
 				color: white;
@@ -72,7 +73,8 @@
 				background-color: #F0F0F0;}
 				.foot{display:none;}
 				iframe {width: 200px;
-					height: 112px;}}
+					height: 112px;}
+				.name {display: none;}}
 			@media screen and (min-width: 700px) {.content {overflow: auto;
 				overflow-x: hidden;
 				position: fixed;
@@ -85,7 +87,9 @@
 				iframe {width: 560px;
 					height:315px;}}
 			@media print {.band {display: none;}
-				.content {padding: 50px;}}
+				.content {padding: 50px;}
+				.img {display: none;}
+				.name {display: block;}}
 		</style>
 		<meta charset="UTF-8">
 		<meta name="description" content="Resume for Jesse Cox">
@@ -98,6 +102,7 @@
 		<div class = "content">
 			<a name = "contact"></a>
 			<img src = "profile.jfif" class = "img" style = "width: 10%; height: auto; display: block; margin-left: auto; margin-right: auto; min-width: 150px;">
+			<h1 class = "name">Jesse Cox</h1>
 			<h2>Developer/IT Consultant</h2>
 			<table>
 				<tr>
